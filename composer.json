@@ -1,0 +1,22 @@
+{
+  "name": "wiebenieuwenhuis/int-encoder",
+  "description": "Shorten numbers (encode/decode)",
+  "keywords": ["shortener"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wiebe Nieuwenhuis",
+      "email": "info@wiebenieuwenhuis.nl"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "ext-bcmath": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wiebenieuwenhuis\\": "src/"
+    }
+  }
+}
